@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #E5E5E5;
 }
 li {
   list-style: none;
@@ -19,7 +20,7 @@ ul {
 }
 .top-line {
   height: 50px;
-  background-color: #E5E5E5;
+  
 }
 .top-line li {
   justify-content: space-between;
@@ -27,12 +28,106 @@ ul {
 nav {
   max-width: 450px;
   margin: 0 auto;
-  padding-top: 15px;
+  padding-top: 17px;
+  padding-left: 14px;
   font-size: 14px;
   line-height: 16px;
 }
-nav ul {
+ul {
   display: flex;
   justify-content: space-between;
 }
+.second-line {
+  height: 189px;
+  background-color: white;
+  padding-top: 20px;
+  margin-bottom: -10px;
+}
+.title {
+  border-bottom: 1px solid #EFEFEF;
+}
+.title .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.title h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.1em;
+  color: #66C05D;
+  margin-left: 20px;
+}
+.logo {
+  display: flex;
+}
+.logo img {
+  margin-bottom: 4px;
+  margin-left: 8px;
+}
+.contact {
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-right: -10px;
+}
+.contact a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.contact button {
+  width: 170px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 2px solid #66C05D;
+  box-sizing: border-box;
+  border-radius: 40px;
+  margin-left: 40px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.main-menu ul {
+  max-width: 675px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-left: 225px;
+}
+.sale {
+  height: 604px;
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  padding-top: 192px;
+  padding-left: 15px;
+}
+.sale h2 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFFFFF;
+  margin: 0;
 
+}
+.sale p {
+  max-width: 308px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-top: 39px;
+  margin-bottom: 0;
+}
+.sale button {
+  width: 170px;
+  height: 40px;
+  background: #66C05D;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 40px;
+  font-size: 14px;
+  line-height: 16px;
+  color: white;
+  margin-top: 45px;
+}
